@@ -1,0 +1,252 @@
+.background {
+    background-image: url("../images/background.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 150px;
+    height:1100px;
+}
+
+
+
+.snowman {
+    background-image: url("../images/snowman.png");
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 300px;
+    background-size: cover;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
+
+
+
+
+.girl{
+     background-image: url("../images/girl.png");
+     width: 350px;
+     height: 300px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: absolute;
+     top: 60%;
+     left: 1700px;
+     transform: translate(-50%, -50%);
+     transition-timing-function: linear;
+     animation: skate1 7s infinite;
+     transition-timing-function: linear;
+}
+ 
+ @keyframes skate1{
+     from {right: 150px;}
+     to {left: -140px;}
+     
+ }
+
+.bear{
+    background-image: url("../images/bear.png");
+     width: 250px;
+     height: 250px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: absolute;
+     top: 70%;
+     left: 1700px;
+     transform: translate(-50%, -50%);
+     animation: skate2 10s infinite;
+     transition-timing-function: linear;
+ }
+
+@keyframes skate2{
+     from {right: 150px;}
+     to {left: -140px;}
+}
+ 
+ .icecube{
+     background-image: url("../images/icecube.png");
+     width: 250px;
+     height: 200px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: absolute;
+     top: 90%;
+     left: 1300px;
+     transform: translate(-50%, -50%);
+ }
+
+ .icecube:hover{
+     cursor: pointer;
+     background-image: url("../images/water.png");
+ }
+
+ 
+  
+
+.donaldduck{
+     background-image: url("../images/donaldduck.png");
+     width: 300px;
+     height: 150px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: absolute;
+     top: 60%;
+     left: 1000px;
+     transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.boy{
+    background-image: url("../images/boy.png");
+     width: 250px;
+     height: 250px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: absolute;
+     top: 70%;
+     left: 2000px;
+     transform: translate(-50%, -50%);
+     transition-timing-function: linear;
+     animation: skate3 9s infinite;
+
+}
+
+@keyframes skate3{
+
+     from{left: -100px;}
+     to{right: 150px;}
+}
+
+.olaf {
+    background-image: url("../images/olaf.png");
+     width: 300px;
+     height: 200px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: absolute;
+     top: 90%;
+     left: 1000px;
+     transform: translate(-50%, -50%);
+
+}
+
+
+
+.snowflakes1{
+    background-image: url("../images/snowflakes.png");
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 100px;
+    background-size: cover;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.snowflakes2{
+    background-image: url("../images/snowflakes.png");
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 100px;
+    background-size: cover;
+    position: absolute;
+    top: 75%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.snowflakes3{
+    background-image: url("../images/snowflakes.png");
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 100px;
+    background-size: cover;
+    position: absolute;
+    top: 75%;
+    left: 145%;
+    transform: translate(-50%, -50%);
+}
+
+.snowflakes4
+{
+    background-image: url("../images/snowflakes.png");
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 100px;
+    background-size: cover;
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.snowflakes5{
+    background-image: url("../images/snowflakes.png");
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 100px;
+    background-size: cover;
+    position: absolute;
+    top: 85%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.snowflakes6{
+    background-image: url("../images/snowflakes.png");
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 100px;
+    background-size: cover;
+    position: absolute;
+    top: 85%;
+    left: 145%;
+    transform: translate(-50%, -50%);
+}
+
+.snowflakes7{
+    background-image: url("../images/snowflakes.png");
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 100px;
+    background-size: cover;
+    position: absolute;
+    top: 95%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.snowflakes8{
+    background-image: url("../images/snowflakes.png");
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 100px;
+    background-size: cover;
+    position: absolute;
+    top: 95%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.snowflakes9{
+    background-image: url("../images/snowflakes.png");
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 100px;
+    background-size: cover;
+    position: absolute;
+    top: 95%;
+    left: 145%;
+    transform: translate(-50%, -50%);
+}
+
+
+}
